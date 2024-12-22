@@ -1,7 +1,7 @@
 # required configuration options
-name: Fusion
-version: 2024.10.1
-slug: ha_fusion
+name: Fusion Wallpanel
+version: 2024.12.0
+slug: ha_fusion_wallpanel
 description: A modern, easy-to-use and performant custom Home Assistant dashboard
 arch:
   - aarch64
@@ -12,7 +12,7 @@ arch:
 init: false
 
 # homepage of the add-on
-url: https://github.com/matt8707/addon-ha-fusion
+url: https://github.com/nikeshpurohit/addon-ha-fusion-wallpanel
 
 # icon for the menu panel integration
 panel_icon: mdi:atom
@@ -35,4 +35,4 @@ ports:
   8099/tcp: null
 
 # docker hub
-image: matt8707/addon-ha-fusion-{arch}
+image: nikeshpurohit/addon-ha-fusion-wallpanel-{arch}
