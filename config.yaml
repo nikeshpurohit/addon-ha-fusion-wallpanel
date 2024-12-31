@@ -2,7 +2,7 @@
 name: Fusion Wallpanel
 version: 2024.12.0
 slug: ha_fusion_wallpanel
-description: A modern, easy-to-use and performant custom Home Assistant dashboard
+description: A modern, easy-to-use and performant custom Home Assistant dashboard optimized for smaller touch displays.
 arch:
   - aarch64
   - amd64
